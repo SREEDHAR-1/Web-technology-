@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samraaj Train Reservation Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>This is Samraaj's Official Train Booking Management site.</h1>
+    <h2>Please Kindly fill-in all the respective required details to ensure a complete booking!</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Check PNR Status</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Book Your Train Tickets</h2>
+      <p>Plan your journey and book your train tickets online.</p>
+      <a href="#">Book Now</a>
+    </section>
+
+    <section id="login">
+      <h2>Login</h2>
+      <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter username">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section id="register">
+      <h2>Register</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter full name">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email address">
+        <label for="contact-number">Contact Number:</label>
+        <input type="tel" id="contact-number" name="contact-number" placeholder="Enter contact number">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password">
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section id="check-pnr-status">
+      <h2>Check PNR Status</h2>
+      <form action="#">
+        <label for="pnr-number">PNR Number:</label>
+        <input type="text" id="pnr-number" name="pnr-number" placeholder="Enter PNR number">
+        <button type="submit">Check PNR Status</button>
+      </form>
+    </section>
+
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <p>For any queries or assistance, please contact us:</p>
+      <ul>
+        <li>Email: 1004samraaj@trainreservation.com</li>
+        <li>Phone: +91 90356 12345</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Train Reservation System</p>
+  </footer>
+</body>
+</html>
