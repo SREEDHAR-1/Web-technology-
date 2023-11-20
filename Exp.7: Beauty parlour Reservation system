@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Beauty Parlour Appointment Booking System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Samraaj Beauty Spa Appointment Booking System</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Book Appointment</a></li>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>With Samraaj Beauty Spa, Relish Your Inner Beauty</h2>
+      <p>Schedule an appointment with our most experienced stylists and beauticians for a 100% luxury experience.</p>
+    </section>
+
+    <section id="book-appointment">
+      <h2>Book Your Appointment</h2>
+      <form action="#">
+        <label for="service">Service:</label>
+        <select id="service" name="service">
+          <option value="haircut">Haircut</option>
+          <option value="makeup">Makeup</option>
+          <option value="manicure">Manicure</option>
+          <option value="pedicure">Pedicure</option>
+          <option value="facial">Facial</option>
+          <option value="massage">Facial</option>
+        </select>
+
+        <label for="stylist">Stylist:</label>
+        <select id="stylist" name="stylist">
+          <option value="jane">Jane Doe</option>
+          <option value="john">John Smith</option>
+          <option value="mary">Mary Jones</option>
+        </select>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+
+        <label for="time">Time:</label>
+        <select id="time" name="time">
+          <option value="9:00 AM">9:00 AM</option>
+          <option value="10:00 AM">10:00 AM</option>
+          <option value="11:00 AM">11:00 AM</option>
+          <option value="12:00 PM">12:00 PM</option>
+          <option value="1:00 PM">1:00 PM</option>
+        </select>
+
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" name="notes" placeholder="Enter any special requests or notes"></textarea>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+    </section>
+
+    <section id="account">
+      <h2>My Account</h2>
+      <h3>Upcoming Appointments</h3>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Service</th>
+          <th>Stylist</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>2023-11-20</td>
+          <td>10:00 AM</td>
+          <td>Haircut</td>
+          <td>Bharath</td>
+          <td>Confirmed</td>
+        </tr>
+        <tr>
+          <td>2023-11-22</td>
+          <td>11:00 AM</td>
+          <td>Facial</td>
+          <td>Dhanush</td>
+          <td>Pending</td>
+        </tr>
+      </table>
+
+      <h3>Appointments History</h3>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Service</th>
+          <th>Stylist</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>2023-11-18</td>
+          <td>9:00 AM</td>
+          <td>Manicure</td>
+          <td>Bharath</td>
+          <td>Completed</td>
+        </tr>
+        <tr>
+          <td>2023-11-16</td>
+          <td>1:15 PM</td>
+          <td>Pedicure</td>
+          <td>Dhanush</td>
+          <td>Completed</td>
+        </tr>
+      </table>
+
+      <h3>Personal Data</h3>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="Rishi Samraaj">
+
+        <label for="email">Email Address: </label>
+        <
