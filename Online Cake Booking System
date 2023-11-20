@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Cake Ordering System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Samraaj Cake Spot & Savouries</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cake Menu</a></li>
+        <li><a href="#">Browse Cakes</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Admin Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>With Samraaj Cakes, immerse yourself in a World of Delicious Cakes</h2>
+      <p>Explore our wide variety of cakes, handcrafted with fresh ingredients and topped with love.</p>
+    </section>
+
+    <section id="browse-cakes">
+      <h2>Browse Our Cake Collection</h2>
+      <div class="filter-bar">
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+          <option value="all">All</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="vanilla">Vanilla</option>
+          <option value="fruit">Fruit</option>
+        </select>
+
+        <label for="price-range">Price Range:</label>
+        <select id="price-range" name="price-range">
+          <option value="all">All</option>
+          <option value="under-20">Under Rs.200</option>
+          <option value="20-30">Rs.200-Rs.300</option>
+          <option value="30-40">Rs.300-Rs.450</option>
+          <option value="over-40">Rs. 450 and above</option>
+        </select>
+      </div>
+
+      <div class="cake-list">
+        <div class="cake-item">
+          <img src="cake1.jpg" alt="Chocolate Cake">
+          <h3>Chocolate Cake</h3>
+          <p>A classic chocolate cake with rich chocolate flavor and moist texture.</p>
+          <a href="#">View Details</a>
+          <a href="#">Add to Cart</a>
+        </div>
+        <div class="cake-item">
+          <img src="cake2.jpg" alt="Vanilla Cake">
+          <h3>Vanilla Cake</h3>
+          <p>A light and fluffy vanilla cake with a delicate sweetness.</p>
+          <a href="#">View Details</a>
+          <a href="#">Add to Cart</a>
+        </div>
+        <div class="cake-item">
+          <img src="cake3.jpg" alt="Strawberry Shortcake">
+          <h3>Strawberry Shortcake</h3>
+          <p>A delightful combination of fresh strawberries, whipped cream, and a soft sponge cake.</p>
+          <a href="#">View Details</a>
+          <a href="#">Add to Cart</a>
+        </div>
+        </div>
+    </section>
+
+    <section id="cake-details">
+      <h2>Cake Details</h2>
+      <img src="cake-details.jpg" alt="Cake Image">
+      <h3>Chocolate Fudge Cake</h3>
+      <p>A decadent chocolate cake with a rich fudge frosting and ganache drizzle.</p>
+      <ul>
+        <li>Moist chocolate cake layers</li>
+        <li>Rich fudge frosting</li>
+        <li>Chocolate ganache drizzle</li>
+        <li>Serves 8-10 people</li>
+      </ul>
+      <div class="price">$35.00</div>
+      <a href="#">Add to Cart</a>
+    </section>
+
+    <section id="shopping-cart">
+      <h2>Your Shopping Cart</h2>
+      <table>
+        <tr>
+          <th>Cake Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Chocolate Fudge Cake</td>
+          <td>1</td>
+          <td>Rs.750.00</td>
+          <td><a href="#">Remove</a></td>
+        </tr>
+        <!-- More cart items>
