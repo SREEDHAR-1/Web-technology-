@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to Samraaj Bus Booking Network</h1>
+    <h1>Welcome to Sreedhar Bus Booking Network</h1>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
@@ -47,28 +47,28 @@
           <th></th>
         </tr>
         <tr>
-          <td>Samraaj Magnuz</td>
+          <td>Sreedhar Magnuz</td>
           <td>09:45 AM</td>
           <td>05:30 PM</td>
           <td>Rs. 1350</td>
           <td><a href="#">Book Now</a></td>
         </tr>
         <tr>
-          <td>Samraaj Imperial</td>
+          <td>Sreedhar Imperial</td>
           <td>10:15 AM</td>
           <td>06:25 PM</td>
           <td>Rs. 1500</td>
           <td><a href="#">Book Now</a></td>
         </tr>
         <tr>
-          <td>Samraaj Majestic</td>
+          <td>Sreedhar Majestic</td>
           <td>11:15 AM</td>
           <td>07:25 PM</td>
           <td>Rs. 1850</td>
           <td><a href="#">Book Now</a></td>
        </tr>
           <tr>
-          <td>Samraaj Renact</td>
+          <td>Sreedhar Renact</td>
           <td>2:00 PM</td>
           <td>10:15 PM</td>
           <td>Rs. 1850</td>
