@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Samraaj Train Reservation Services</title>
+  <title>Sreedhar Train Reservation Services</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>This is Samraaj's Official Train Booking Management site.</h1>
+    <h1>This is Sreedhar's Official Train Booking Management site.</h1>
     <h2>Please Kindly fill-in all the respective required details to ensure a complete booking!</h2>
     <nav>
       <ul>
@@ -69,7 +69,7 @@
       <h2>Contact Us</h2>
       <p>For any queries or assistance, please contact us:</p>
       <ul>
-        <li>Email: 1004samraaj@trainreservation.com</li>
+        <li>Email: 2004Sreedhar@trainreservation.com</li>
         <li>Phone: +91 90356 12345</li>
       </ul>
     </section>
